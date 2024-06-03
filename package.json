@@ -1,0 +1,24 @@
+{
+  "name": "todoconsoleapp",
+  "version": "1.0.0",
+  "description": "This is a console based todo app written in typecript for typescript rnd",
+  "main": "./dist/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc",
+    "start" : "node dist/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ahamed-kashif/todoconsoleapp.git"
+  },
+  "keywords": [
+    "todo",
+    "app"
+  ],
+  "author": "sahkashif",
+  "license": "ISC",
+  "dependencies": {
+    "typescript": "^5.4.5"
+  }
+}
